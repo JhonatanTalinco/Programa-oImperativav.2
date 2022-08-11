@@ -1,20 +1,20 @@
 function adicionar(x, y) {
     return x + y;
-};
+}
 
 function subtracao(x, y) {
     return x - y;
-};
+}
 
 function multiplicacao(x, y) {
     return x * y;
-};
+}
 
 function divisao(x, y) {
     return x / y;
-};
+}
 
-console.log("Calculadora")
+console.log("Calculadora");
 
 console.log(adicionar(4, 6));
 console.log(subtracao(16, 8));
@@ -27,7 +27,7 @@ console.log(divisao(10, 2));
 
 function quadradoDoNumero(x) {
     return multiplicacao(x, x);
-};
+}
 
 console.log(quadradoDoNumero(12));
 
@@ -35,7 +35,7 @@ console.log(quadradoDoNumero(12));
 
 function MediaDeTresNumeros(x, y, z) {
     return (divisao((adicionar(x, y) + z), 3))
-};
+}
 
 console.log(MediaDeTresNumeros(12, 20, 28));
 
@@ -53,4 +53,4 @@ function geradorDePorcentagem(x, y) {
     return multiplicacao(divisao(x, y), 100)
 }
 
-console.log(geradorDePorcentagem(100, 250))
+console.log(geradorDePorcentagem(100, 250));
