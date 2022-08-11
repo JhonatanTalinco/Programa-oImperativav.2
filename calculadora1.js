@@ -16,12 +16,12 @@ function divisao(x, y) {
 
 console.log("Calculadora")
 
-console.log(adicionar(2, 4));
-console.log(subtracao(12, 4));
-console.log(multiplicacao(3, 5));
-console.log(divisao(8, 4));
+console.log(adicionar(4, 6));
+console.log(subtracao(16, 8));
+console.log(multiplicacao(6, 10));
+console.log(divisao(12, 5));
 
-console.log(divisao(4, 0));
+console.log(divisao(10, 2));
 
 // calculo quadrado do número
 
@@ -29,7 +29,7 @@ function quadradoDoNumero(x) {
     return multiplicacao(x, x);
 };
 
-console.log(quadradoDoNumero(8));
+console.log(quadradoDoNumero(12));
 
 // calculo média
 
@@ -37,7 +37,7 @@ function MediaDeTresNumeros(x, y, z) {
     return (divisao((adicionar(x, y) + z), 3))
 };
 
-console.log(MediaDeTresNumeros(8, 16, 24));
+console.log(MediaDeTresNumeros(12, 20, 28));
 
 // calculo porcentagem
 
@@ -45,7 +45,7 @@ function calculaPorcentagem(x, y) {
     return totalPorcentagem = multiplicacao(x, divisao(y, 100))
 }
 
-console.log(calculaPorcentagem(200, 25))
+console.log(calculaPorcentagem(400, 50))
 
 // gerador de porcentagem
 
@@ -53,4 +53,4 @@ function geradorDePorcentagem(x, y) {
     return multiplicacao(divisao(x, y), 100)
 }
 
-console.log(geradorDePorcentagem(75, 500))
+console.log(geradorDePorcentagem(100, 250))
